@@ -77,8 +77,7 @@ print("The high rank cosine score is",x)3. Construct a TF-IDF matrix using Tfidf
 ### Program:
 
 ```python
-Developed by : AMURTHA VAAHINI.KN
-Register number : 212222240008
+
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
