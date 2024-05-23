@@ -1,4 +1,4 @@
-
+```
 def search(query, tfidf_matrix, tfidf_vectorizer):
     preprocessed_query = preprocess_text(query)
     query_vector = tfidf_vectorizer.transform([preprocessed_query])
@@ -6,5 +6,8 @@ def search(query, tfidf_matrix, tfidf_vectorizer):
     sorted_indexes = similarity_scores.argsort()[0][::-1]
     results = [(documents[i], similarity_scores[0, i]) for i in sorted_indexes]
     return results
+```
+
+
 
 
